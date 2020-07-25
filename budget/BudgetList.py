@@ -1,4 +1,4 @@
-from .import Expense
+from . import Expense
 
 class BudgetList():
 
@@ -25,7 +25,7 @@ class BudgetList():
 
 
 def main():
-    myBudgetList = BudgetList(budget = 1200)
+    myBudgetList = BudgetList(1200)
     expenses = Expense.Expenses()
     expenses.read_expenses("data/spending_data.csv")
 
